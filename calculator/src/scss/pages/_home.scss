@@ -1,0 +1,103 @@
+    @font-face {
+        font-family: "Lato";
+        src: url(/fonts/Lato/Lato-Regular.ttf) format("truetype");
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: "Lato";
+        src: url(/fonts/Lato/Lato-Bold.ttf) format("truetype");
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: "Lato";
+        src: url(/fonts/Lato/Lato-Italic.ttf) format("truetype");
+        font-weight: normal;
+        font-style: italic;
+    }
+    
+    html {
+        box-sizing: border-box;
+        user-select: none;
+    }
+    
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+    
+    body {
+        font-family: "Lato", sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: normal;
+        color: #767E9E;
+    }
+    
+    .wrapper {
+        margin: 0 auto;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    .block {
+        display: block;
+    }
+    /* Calculator styles start */
+    
+    #calculator {
+        width: 235px;
+        height: 345px;
+        background-color: orange;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+        align-content: space-around;
+        border-radius: 5px;
+    }
+    
+    textarea {
+        line-height: 44px;
+        font-size: 20pt;
+        width: 225px;
+        height: 50px;
+        resize: none;
+        border: 1px solid gold;
+        border-radius: 5px;
+    }
+    
+    .numbers,
+    .dot,
+    .operators {
+        font-size: 18pt;
+        width: 55px;
+        height: 55px;
+        margin: .5px;
+        background: gold;
+        border: 1px solid gold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    
+    .zero,
+    .result {
+        width: calc(55px*3 + 10px);
+        height: 55px;
+    }
+    
+    .active {
+        background-color: orange;
+    }
+    /* Calculator styles end */
+    
+    //
