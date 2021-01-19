@@ -36,7 +36,7 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-image: url(../img/background/Group-1487.png), url(../img/background/Group-1485.png), url(../img/background/Group-1486.png), url(../img/background/Group-1485.png), url(../img/background/Group-1487.png), url(../img/background/Group-1486.png), url(../img/background/Group-1486.png), url(../img/background/Group-1487.png), url(../img/background/Group-1486.png), radial-gradient(rgba(255, 255, 225, 0.5), transparent 5%), radial-gradient(rgba(255, 255, 225, 0.5), transparent 5%), linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    background-image: url(/img/background/Group-1487.png), url(/img/background/Group-1485.png), url(/img/background/Group-1486.png), url(/img/background/Group-1485.png), url(/img/background/Group-1487.png), url(/img/background/Group-1486.png), url(/img/background/Group-1486.png), url(/img/background/Group-1487.png), url(/img/background/Group-1486.png), radial-gradient(rgba(255, 255, 225, 0.5), transparent 5%), radial-gradient(rgba(255, 255, 225, 0.5), transparent 5%), linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     background-size: auto, auto, auto, auto, auto, auto, auto, auto, auto, 30px 30px, 30px 30px, auto;
     background-position: right 100% top 50%, right 87.5% top 15%, right 75% top 85%, right 42% top 70%, right 26% top 28%, right 50% top 0%, right 10% top 60%, right 0% top 100%, right 10% top 0%, 0 0, 15px 15px, center;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, repeat, repeat, no-repeat;
@@ -118,7 +118,7 @@ textarea {
         padding: 20px 5px;
     }
     .calculator {
-        background-image: url(../img/background/Group-1487.png), url(../img/background/Group-1485.png), url(../img/background/Group-1486.png), url(../img/background/Group-1485.png), url(../img/background/Group-1487.png), url(../img/background/Group-1486.png), url(../img/background/Group-1486.png), url(../img/background/Group-1487.png), url(../img/background/Group-1486.png), radial-gradient(rgba(255, 255, 225, 0.5), transparent 5%), radial-gradient(rgba(255, 255, 225, 0.5), transparent 5%), linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+        background-image: url(/img/background/Group-1487.png), url(/img/background/Group-1485.png), url(/img/background/Group-1486.png), url(/img/background/Group-1485.png), url(/img/background/Group-1487.png), url(/img/background/Group-1486.png), url(/img/background/Group-1486.png), url(/img/background/Group-1487.png), url(/img/background/Group-1486.png), radial-gradient(rgba(255, 255, 225, 0.5), transparent 5%), radial-gradient(rgba(255, 255, 225, 0.5), transparent 5%), linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
         background-size: auto, auto, auto, auto, auto, auto, auto, auto, auto, 30px 30px, 30px 30px, auto;
         background-position: right 100% top 50%, right 87.5% top 15%, right 75% top 85%, right 42% top 70%, right 26% top 28%, right 50% top 0%, right 10% top 60%, right 0% top 100%, right 10% top 0%, 0 0, 15px 15px, center;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, repeat, repeat, no-repeat;
@@ -157,7 +157,7 @@ textarea {
 
 @media screen and (max-width: 375px) {
     .calculator {
-        background-image: url(../img/background/Group-1487.png), url(../img/background/Group-1485.png), url(../img/background/Group-1486.png), url(../img/background/Group-1485.png), url(../img/background/Group-1487.png), url(../img/background/Group-1486.png), url(../img/background/Group-1486.png), url(../img/background/Group-1487.png), url(../img/background/Group-1486.png), radial-gradient(rgba(255, 255, 225, 0.5), transparent 5%), radial-gradient(rgba(255, 255, 225, 0.5), transparent 5%), linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+        background-image: url(/img/background/Group-1487.png), url(/img/background/Group-1485.png), url(/img/background/Group-1486.png), url(/img/background/Group-1485.png), url(/img/background/Group-1487.png), url(/img/background/Group-1486.png), url(/img/background/Group-1486.png), url(/img/background/Group-1487.png), url(/img/background/Group-1486.png), radial-gradient(rgba(255, 255, 225, 0.5), transparent 5%), radial-gradient(rgba(255, 255, 225, 0.5), transparent 5%), linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
         background-size: auto, auto, auto, auto, auto, auto, auto, auto, auto, 30px 30px, 30px 30px, auto;
         background-position: right 100% top 50%, right 87.5% top 15%, right 75% top 85%, right 42% top 70%, right 26% top 28%, right 50% top 0%, right 10% top 60%, right 0% top 100%, right -15% top 20%, 0 0, 15px 15px, center;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, repeat, repeat, no-repeat;
