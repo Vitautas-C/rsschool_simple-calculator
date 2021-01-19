@@ -33,8 +33,8 @@ for (let i = 0; i < operations.length; i++) {
 for (let i = 0; i < clearBtns.length; i++) {
     let clearBtn = clearBtns[i];
     clearBtn.addEventListener("click", (e) => {
-        console.log(e.target.textContent);
-        clear(e.target.textContent)
+        console.log(e.target.getAttribute("id"));
+        clear(e.target.getAttribute("id"))
     });
 };
 
@@ -100,17 +100,17 @@ decimalBtn.addEventListener("click", decimal);
 
 let clear = (clearButton) => {
     switch (clearButton) {
-        case "CE":
+        case "ce":
             display.value = 0;
             MemoryNewNubmer = true;
             break;
-        case "C":
+        case "c":
             display.value = 0;
             MemoryNewNubmer = true;
             MemoryCurrentNubmer = 0;
             MemoryPendingOperation = "";
             break;
-        case "🠐":
+        case "bs":
             if (display.value.length > 1) {
                 display.value = display.value.substring(0, display.value.length - 1);
             } else {
